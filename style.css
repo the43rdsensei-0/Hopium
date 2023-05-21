@@ -29,6 +29,37 @@ header {
     align-items: center;
 }
 
+nav {
+    border: 1px solid red;
+    margin-right: 3em;
+}
+
+nav ul  {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    transition: all .2s ease-in-out;
+}
+
+nav ul li:hover {
+    transform: scale(1.2); 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: limegreen;
+}
+
 .btn_group {
     display: flex;
     gap: 20px;

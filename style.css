@@ -5,17 +5,17 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #131313;
-    color: #fff;
-    background: url(/images/bg.jpg);
+  font-family: 'life_is_goofylife_is_goofy';
+    background: #e4e6e7;
+    color: #292522;
+    /* background: url(/images/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .header_wrapper {
-    padding: 0 4em;
+    padding: 0 10em;
     background: rgba(0, 0, 0, 0.2);
     position: fixed;
     width: 100%;
@@ -35,6 +35,10 @@ header {
     align-items: center;
 }
 
+.logo_text h3 {
+  font-size: 48px;
+}
+
 nav {
     margin-right: 3em;
 }
@@ -49,6 +53,7 @@ nav ul  {
 nav ul li {
     list-style: none;
     transition: all .2s ease-in-out;
+    padding-top: .2em;
 }
 
 nav ul li:hover {
@@ -58,7 +63,8 @@ nav ul li:hover {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 32px;
+    height: 100%;
 }
 
 nav ul li a:hover {
@@ -73,7 +79,7 @@ nav ul li a:hover {
 .nav_btn {
     position: relative;
   margin: 0;
-  padding: 0.6em 0.8em;
+  padding: 0.8em 1.1em;
   outline: none;
   text-decoration: none;
   display: flex;
@@ -82,8 +88,8 @@ nav ul li a:hover {
   cursor: pointer;
   border: none;
   text-transform: uppercase;
-  background-color: #333;
-  border-radius: 10px;
+  background-color: #292522;
+  border-radius: 5px;
   color: #fff;
   font-weight: 300;
   font-size: 16px;
@@ -96,6 +102,7 @@ nav ul li a:hover {
 .nav_btn:hover {
     -webkit-animation: sh0 0.5s ease-in-out both;
             animation: sh0 0.5s ease-in-out both;
+            color: limegreen;
   }
   
   @-webkit-keyframes sh0 {
@@ -183,7 +190,7 @@ nav ul li a:hover {
     background-color: #333333;
     border: 2px solid #000;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -193,7 +200,7 @@ nav ul li a:hover {
     margin: 0;
     outline: none;
     overflow: visible;
-    padding: 0.7em 2em;
+    padding: 1em 2em;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -206,7 +213,7 @@ nav ul li a:hover {
     font-size: 13px;
    }
    
-   .fancy::before {
+   /* .fancy::before {
     content: " ";
     width: 1.5625rem;
     height: 2px;
@@ -217,12 +224,12 @@ nav ul li a:hover {
     transform: translateY(-50%);
     transform-origin: center;
     transition: background 0.3s linear, width 0.3s linear;
-   }
+   } */
    
    .fancy .text {
-    font-size: 1.125em;
-    line-height: 1.33333em;
-    padding-left: 2em;
+    font-size: 2.325em;
+    /* line-height: 1.33333em; */
+    padding-top: .2em;
     display: block;
     text-align: left;
     transition: all 0.3s ease-in-out;
@@ -232,32 +239,35 @@ nav ul li a:hover {
    }
    
    .fancy .top-key {
-    height: 2px;
-    width: 1.5625rem;
+    height: 5px;
+    width: 2.5625rem;
+    border-radius: 10px;
     top: -2px;
     left: 0.625rem;
     position: absolute;
-    background: #e8e8e8;
+    background: limegreen;
     transition: width 0.5s ease-out, left 0.3s ease-out;
    }
    
    .fancy .bottom-key-1 {
-    height: 2px;
+    height: 5px;
     width: 1.5625rem;
     right: 1.875rem;
+    border-radius: 10px;
     bottom: -2px;
     position: absolute;
-    background: #e8e8e8;
+    background: limegreen;
     transition: width 0.5s ease-out, right 0.3s ease-out;
    }
    
    .fancy .bottom-key-2 {
-    height: 2px;
+    height: 5px;
+    border-radius: 10px;
     width: 0.625rem;
-    right: 0.625rem;
+    right: 0.825rem;
     bottom: -2px;
     position: absolute;
-    background: #e8e8e8;
+    background: limegreen;
     transition: width 0.5s ease-out, right 0.3s ease-out;
    }
    
@@ -273,7 +283,6 @@ nav ul li a:hover {
    
    .fancy:hover .text {
     color: limegreen;
-    padding-left: 1.5em;
    }
    
    .fancy:hover .top-key {
@@ -291,7 +300,7 @@ nav ul li a:hover {
 
   .top_btn_wrapper {
     position: fixed;
-    right: 20px;
+    right: 50px;
     bottom: 20px;
   }
 
@@ -300,10 +309,11 @@ nav ul li a:hover {
     height: 56px;
     overflow: hidden;
     border: none;
-    color: #fff;
+    color: #292522;
     background: none;
     position: relative;
     padding-bottom: 2em;
+    font-family: inherit;
   }
   
   #top_btn > div,#top_btn > svg {
@@ -333,7 +343,7 @@ nav ul li a:hover {
   
   #top_btn .clone > *,#top_btn .text > * {
     opacity: 1;
-    font-size: 1.3rem;
+    font-size: 32px;
     transition: 0.2s;
     margin-left: 4px;
   }
@@ -383,8 +393,109 @@ nav ul li a:hover {
   }
 
   /* main */
+
+  .container {
+    padding: 0 10em;
+  }
+  
   main {
-    height: 100vh;
+    padding-top: 80px !important;
   }
 
-    /* main */
+  /* cover */
+
+  .cover {
+    width: 65%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+  }
+
+  .cover h1 {
+    font-size: 180px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+  }
+
+  .cover h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 1em;
+  }
+
+  .cover h4 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  /* cover */
+
+  /* section */
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .section .section_text {
+    width: 60%;
+  }
+
+  .section .section_text h3 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 1em;
+  }
+
+  .section .section_text h4 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 1em;
+  }
+
+  .section .section_text p {
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 1em;
+  }
+
+  .social_btns {
+    display: flex;
+    gap: 1.5em;
+    margin-top: 2em;
+  }
+
+  .social_btns span {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+  }
+
+  .social_btns span {
+    padding-top: .2em;
+  }
+
+  .section .section_image {
+    width: 40%;
+    border-radius: 12px;
+  }
+
+  .section .section_image img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+  }
+
+  /* section */
+
+  /* main */

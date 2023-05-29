@@ -37,7 +37,7 @@ header {
 }
 
 .logo_text h3 {
-  font-size: 48px;
+  font-size: 32px;
 }
 
 nav {
@@ -64,7 +64,7 @@ nav ul li:hover {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 18px;
     height: 100%;
 }
 
@@ -228,9 +228,8 @@ nav ul li a:hover {
    } */
    
    .fancy .text {
-    font-size: 2.325em;
+    font-size: 1.325em;
     /* line-height: 1.33333em; */
-    padding-top: .2em;
     display: block;
     text-align: left;
     transition: all 0.3s ease-in-out;
@@ -344,7 +343,8 @@ nav ul li a:hover {
   
   #top_btn .clone > *,#top_btn .text > * {
     opacity: 1;
-    font-size: 32px;
+    font-size: 20px;
+    font-weight: 500;
     transition: 0.2s;
     margin-left: 4px;
   }
@@ -415,21 +415,21 @@ nav ul li a:hover {
   }
 
   .cover h1 {
-    font-size: 180px;
+    font-size: 90px;
     font-weight: 700;
     /* border: 1px solid red; */
   }
 
   .cover h3 {
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 32px;
     margin-bottom: 1em;
   }
 
   .cover h4 {
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 32px;
   }
 
@@ -449,23 +449,24 @@ nav ul li a:hover {
   }
 
   .section .section_text h3 {
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 24px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
     margin-bottom: 1em;
   }
 
   .section .section_text h4 {
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
     margin-bottom: 1em;
   }
 
   .section .section_text p {
-    font-size: 28px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 32px;
     margin-bottom: 1em;
+    font-weight: 400;
   }
 
   .social_btns {
@@ -475,15 +476,11 @@ nav ul li a:hover {
   }
 
   .social_btns span {
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5em;
-  }
-
-  .social_btns span {
-    padding-top: .2em;
   }
 
   .section .section_image {
@@ -515,22 +512,23 @@ nav ul li a:hover {
   }
 
   .token_text h3 {
-    font-size: 52px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 500;
     line-height: 32px;
     margin-bottom: .5em;
   }
 
   .token_text h4 {
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 32px;
   }
 
   .token_text p {
-    font-size: 28px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 32px;
     margin-bottom: 1em;
+    font-weight: 400;
   }
 
   .token_point {

@@ -5,13 +5,14 @@
 }
 
 body {
-  font-family: 'life_is_goofylife_is_goofy';
+  font-family: 'Quicksand', sans-serif;
     background: #e4e6e7;
     color: #292522;
     /* background: url(/images/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
+    cursor: url(/images/icons8-cursor.svg), auto;
 }
 
 .header_wrapper {
@@ -241,7 +242,7 @@ nav ul li a:hover {
    .fancy .top-key {
     height: 5px;
     width: 2.5625rem;
-    border-radius: 10px;
+    border-radius: 10px ;
     top: -2px;
     left: 0.625rem;
     position: absolute;
@@ -497,5 +498,51 @@ nav ul li a:hover {
   }
 
   /* section */
+
+  /* tokenomics */
+
+  .tokenomics {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-top: 10em;
+  }
+
+  .token_text {
+    border: 1px solid green;
+    width: 50%;
+  }
+
+  .token_text h3 {
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: .5em;
+  }
+
+  .token_text h4 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  .token_text p {
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 1em;
+  }
+
+  .token_point {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
+
+  .token_chart {
+    width: 50%;
+  }
+
+  /* tokenomics */
 
   /* main */

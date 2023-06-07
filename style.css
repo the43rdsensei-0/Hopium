@@ -1051,4 +1051,264 @@ nav ul li a:hover {
 
   /* media queries */
 
+  @media (max-width: 1024px) {
+    .container {
+      padding: 0 5em;
+    }
+
+    .header_wrapper {
+      padding: 0 5em;
+    }
+
+    .presale_wrapper {
+      width: 75%;
+    }
+
+    .section_text h3 {
+      font-size: 24px !important;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .container {
+      padding: 0 3em;
+    }
+
+    .header_wrapper {
+      padding: 0 3em;
+    }
+
+    .presale_wrapper {
+      width: 85%;
+    }
+
+    nav {
+      margin-right: 1.5em;
+    }
+
+    nav ul  {
+      gap: 30px;
+    }
+
+    .cover {
+      width: 95%;
+    }
+
+    .connect_nav_btn {
+      display: none;
+    }
+
+    .section_text {
+      width: 100% !important;
+    }
+
+    .section_image {
+      display: none;
+    }
+
+    .tokenomics {
+      flex-direction: column;
+    }
+
+    .token_text, .token_chart {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 414px) {
+    .container {
+      padding: 0 1em;
+    }
+
+    .header_wrapper {
+      padding: 0 1em;
+    }
+
+    .presale_wrapper {
+      width: 100%;
+      padding: 0 1.5em;
+    }
+
+    .nav_btn {
+      font-size: 12px;
+    }
+
+    nav {
+      display: none;
+    }
+
+    .cover {
+      width: 100%;
+      gap: .5em;
+    }
+
+    .cover h1 {
+      font-size: 52px;
+    }
+
+    .cover h3 {
+      font-size: 14px;
+    }
+
+    .cover h4 {
+      font-size: 16px;
+    }
+
+    .logo_text h3{
+      font-size: 22px;
+    }
+
+    .connect_nav_btn {
+      display: none;
+    }
+
+    .presale_wrapper {
+      padding-block: 2em;
+    }
+
+    .count_down_timer {
+      gap: 1em;
+    }
+  
+    .timer {
+      width: 60px;
+      height: 40px;
+      font-size: 16px;
+    }
+
+    .progress_bar {
+      height: 15px;
+      border-radius: 12px;
+      position: relative;
+      z-index: 999;
+    }
+  
+    .cap {
+      font-size: 18px;
+    }
+  
+    .price_tag {
+      font-size: 16px;
+    }
+  
+    .network {
+      gap: 1em;
+    }
+  
+    .ntwk {
+      font-size: 12px;
+      font-weight: 700;
+    }
+  
+    .ntwk img {
+      width: 15px;
+    }
+  
+    .balance {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  
+    .exchange_section {
+      margin-top: 1em;
+      gap: 1em;
+      flex-direction: column;
+    }
+  
+    .exchange_section_wrapper {
+      width: 100%;
+    }
+  
+    .exchange_section_flex span {
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+    }
+  
+    .connect_wallet {
+      margin-top: 2em;
+      width: 70%;
+    }
+  
+    .listing {
+      margin-top: 1em;
+      font-size: 14px;
+    }
+
+    .section_text {
+      width: 100% !important;
+    }
+
+    .section_text h3 {
+      font-size: 20px !important;
+    }
+
+    .section_text p {
+      font-size: 14px !important;
+    }
+    
+    .section_image {
+      display: none;
+    }
+
+    .tokenomics {
+      flex-direction: column;
+    }
+
+    .token_text, .token_chart {
+      width: 100%;
+    }
+
+    .token_text p {
+      font-size: 14px;
+    }
+
+    .token_text h3 {
+      font-size: 24px;
+    }
+
+    .token_point {
+      grid-template-columns: 1fr;
+      gap: 1em;
+    }
+
+    .join_community h4{
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .join_community p{
+      font-size: 14px !important;
+    }
+
+    .comm_btn span{
+      font-size: 14px;
+    }
+
+    .card_wrapper {
+      grid-template-columns: 1fr;
+    }
+
+    .buy_hopium h3 {
+      font-size: 24px;
+    }
+
+    .card h4 {
+      font-size: ;
+    }
+
+    .card p {
+      font-size: 16px;
+    }
+
+    .top_btn_wrapper {
+      display: none;
+    }
+  }
+
+
+
+
+
+
   

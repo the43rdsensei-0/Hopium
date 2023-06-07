@@ -1126,6 +1126,7 @@ nav ul li a:hover {
 
     .presale_wrapper {
       width: 100%;
+      margin-top: 5em;
       padding: 0 1.5em;
     }
 
@@ -1143,7 +1144,7 @@ nav ul li a:hover {
     }
 
     .cover h1 {
-      font-size: 52px;
+      font-size: 42px;
     }
 
     .cover h3 {
@@ -1178,9 +1179,6 @@ nav ul li a:hover {
 
     .progress_bar {
       height: 15px;
-      border-radius: 12px;
-      position: relative;
-      z-index: 999;
     }
   
     .cap {
@@ -1294,11 +1292,11 @@ nav ul li a:hover {
     }
 
     .card h4 {
-      font-size: ;
+      font-size: 20px;
     }
 
     .card p {
-      font-size: 16px;
+      font-size: 14px !important;
     }
 
     .top_btn_wrapper {

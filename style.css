@@ -217,7 +217,7 @@ nav ul li a:hover {
     border-radius: 5px;
     box-sizing: border-box;
     color: #fff;
-    cursor: pointer;
+    cursor: not-allowed;
     display: inline-block;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -445,7 +445,7 @@ nav ul li a:hover {
   }
 
   .cover h3 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 1em;
@@ -674,7 +674,7 @@ nav ul li a:hover {
   }
 
   .section .section_text {
-    width: 60%;
+    width: 55%;
   }
 
   .section .section_text h3 {
@@ -684,15 +684,15 @@ nav ul li a:hover {
     margin-bottom: 1em;
   }
 
-  .section .section_text h4 {
+  /* .section .section_text h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
     margin-bottom: 1em;
-  }
+  } */
 
   .section .section_text p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     margin-bottom: 1em;
     font-weight: 400;
@@ -713,7 +713,7 @@ nav ul li a:hover {
   }
 
   .section .section_image {
-    width: 40%;
+    width: 50%;
     border-radius: 12px;
   }
 
@@ -741,19 +741,19 @@ nav ul li a:hover {
 
   .token_text h3 {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 32px;
     margin-bottom: .5em;
   }
 
   .token_text h4 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
     line-height: 32px;
   }
 
   .token_text p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     margin-bottom: 1em;
     font-weight: 400;
@@ -806,15 +806,15 @@ nav ul li a:hover {
   }
 
   .bar1 {
-    width: 30%;
+    width: 50%;
   }
 
   .bar2 {
-    width: 36%;
+    width: 30%;
   }
 
   .bar3 {
-    width: 9%;
+    width: 3%;
   }
 
   .bar4 {
@@ -822,7 +822,11 @@ nav ul li a:hover {
   }
 
   .bar5 {
-    width: 5%;
+    width: 1%;
+  }
+
+  .bar6 {
+    width: 4%;
   }
 
   /* tokenomics */
@@ -960,7 +964,7 @@ nav ul li a:hover {
   }
 
   .answer p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     padding-top: 1em;
@@ -1044,3 +1048,7 @@ nav ul li a:hover {
 
 
   /* main */
+
+  /* media queries */
+
+  
